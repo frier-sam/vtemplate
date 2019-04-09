@@ -21,13 +21,13 @@ change * to respective release
 ## Usage
 
 you can import the package and call create with the project name
-example
+for example
 ```
 import vtemplate as vt
 vt.create('project name')
 ```
 
-this start creating the project structure
+this starts creating the project structure
 There will be some questions you need to answer
 
 to get the full idea see example.ipynb
