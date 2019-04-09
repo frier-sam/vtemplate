@@ -1,0 +1,40 @@
+# def code(t):
+#     try:
+#         os.makedirs(t+'/code')
+#         print('created code directory')
+#     except OSError as e:
+#         if e.errno == errno.EEXIST:
+#             print('folder code already exists')
+#             overwrite = input("do you want to overwrite?[y&n] - ")
+#         if overwrite == 'n':
+#             sys.exit()
+#     return 
+
+# def ppt(t):
+#     try:
+#         os.makedirs(t+'/PPT')
+#         print('created ppt directory')
+#     except OSError as e:
+#         if e.errno == errno.EEXIST:
+#             print('folder ppt already exists')
+#             overwrite = input("do you want to overwrite?[y&n] - ")
+#         if overwrite == 'n':
+#             sys.exit()
+#     return 
+
+# def demo(t):
+#     try:
+#         os.makedirs(t+'/Demo')
+#         print('created Demo directory')
+#     except OSError as e:
+#         if e.errno == errno.EEXIST:
+#             print('folder Demo already exists')
+#             overwrite = input("do you want to overwrite?[y&n] - ")
+#         if overwrite == 'n':
+#             sys.exit()
+#     return 
+
+
+
+#print('Number of arguments:', len(sys.argv), 'arguments.')
+#print('Argument List:', str(sys.argv))
