@@ -1,0 +1,6 @@
+##please add the libraries along with version with '=='
+    ##exmaple (add withut hashtags and no punctuations)
+    #pandas==0.24.1
+    #flask==1.0.2
+    ##please use double equals as this files will be directly used in a cmd
+    ##to install all requiements use 'pip install -r /path/to/requirements.txt
