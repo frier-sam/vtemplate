@@ -1,5 +1,9 @@
 # vtemplate
+
 A python library to create a structured directories for different kinds of projects
+
+This created for structuring of projects inside virtusa
+all projects are roughlt divided into 4 catogeries and a specific structure in proposed for eash. This library help creating the strcuture of one of the 4 kind as specified 
 
 ## Installation
 This can be installed with pip 
