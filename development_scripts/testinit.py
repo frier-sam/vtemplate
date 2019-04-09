@@ -1,4 +1,3 @@
-name = "vtemplate"
 import sys
 import os, errno
 import datetime
@@ -143,3 +142,6 @@ class create:
             self.licence(self.name)
             print('created {} with library structure'.format(self.name))
         
+    
+
+

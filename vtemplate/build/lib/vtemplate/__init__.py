@@ -1,3 +1,4 @@
+name = "vtemplate"
 import sys
 import os, errno
 import datetime
@@ -88,11 +89,8 @@ class create:
                 sys.exit()
         return 
    
-    def __init__():
-        if len(sys.argv)==1:
-            print('Enter the name of project after the command')
-            sys.exit() 
-        self.name = sys.argv[1]
+    def __init__(self,name): 
+        self.name = name
         try:
             os.makedirs(self.name)
             print('created master directory')
@@ -109,42 +107,39 @@ class create:
             sys.exit()
         #print('you entered '+selection)
         if self.selection == '1':
-            folder(self.name,'code')
-            folder(self.name,'PPT')
-            folder(selfname,'Demo')
-            readme(self.name)
-            requirements(self.name)
-            licence(self.name)
+            self.folder(self.name,'code')
+            self.folder(self.name,'PPT')
+            self.folder(self.name,'Demo')
+            self.readme(self.name)
+            self.requirements(self.name)
+            self.licence(self.name)
             print('created {} with Raw code structure'.format(self.name))
             
         elif self.selection == '2':
-            folder(self.name,'code')
-            folder(self.name,'PPT')
-            folder(self.name,'Demo')
-            flsbis(self.name,'frontend')
-            flsbis(self.name,'backend')
-            readme(self.name)
-            requirements(self.name)
-            licence(self.name)
+            self.folder(self.name,'code')
+            self.folder(self.name,'PPT')
+            self.folder(self.name,'Demo')
+            self.flsbis(self.name,'frontend')
+            self.flsbis(self.name,'backend')
+            self.readme(self.name)
+            self.requirements(self.name)
+            self.licence(self.name)
             print('created {} with Flask bisected(api format) structure'.format(self.name))
             
         elif self.selection == '3':
-            folder(self.name,'code')
-            folder(self.name,'PPT')
-            folder(self.name,'Demo')
-            readme(self.name)
-            requirements(self.name)
-            licence(self.name)
+            self.folder(self.name,'code')
+            self.folder(self.name,'PPT')
+            self.folder(self.name,'Demo')
+            self.readme(self.name)
+            self.requirements(self.name)
+            self.licence(self.name)
             print('created {} with Flask integrated structure'.format(self.name))
             
         elif self.selection == '4':
-            folder(self.name,'code')
-            folder(self.name,'PPT')
-            folder(self.name,'Library') 
-            readme(self.name)
-            licence(self.name)
+            self.folder(self.name,'code')
+            self.folder(self.name,'PPT')
+            self.folder(self.name,'Library') 
+            self.readme(self.name)
+            self.licence(self.name)
             print('created {} with library structure'.format(self.name))
         
-    
-
-
