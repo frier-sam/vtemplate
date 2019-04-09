@@ -17,9 +17,8 @@ change * to respective release
 ## Usage
 
 you can import the package and call create with the project name
-
-```
 example
+```
 import vtemplate as vt
 vt.create('project name')
 ```
