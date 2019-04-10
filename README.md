@@ -3,7 +3,7 @@
 A python library to create a structured directories for different kinds of projects
 
 This is created for structuring of projects inside virtusa
-all projects are roughlt divided into 4 catogeries and a specific structure in proposed for easc. This library helps create the strcuture of one of the 4 kind as specified 
+all projects are roughly divided into 4 catogeries and a specific structure in proposed for each. This library helps to create the strcuture of one of the 4 kinds you specify 
 
 ## Installation
 This can be installed with pip 
